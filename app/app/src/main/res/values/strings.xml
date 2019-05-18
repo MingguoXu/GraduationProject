@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">红蜘蛛杀手</string>
+    <string name="introduce">基于图像识别的柑橘红蜘蛛虫害检测防治系统</string>
+</resources>

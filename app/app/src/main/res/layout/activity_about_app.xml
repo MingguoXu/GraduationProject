@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_white">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="关于本应用"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@mipmap/logo_150px"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_logo"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="毕业设计\n作者：徐明国\n老师：宋乐鹏\n课题名：基于图像识别的柑橘红蜘蛛检测防治系统"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@id/iv_logo"
+            android:layout_margin="50dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

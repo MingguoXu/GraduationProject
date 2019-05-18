@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_call"
+        android:icon="@drawable/nav_call"
+        android:title="15696576570"/>
+    <item
+        android:id="@+id/nav_friends"
+        android:icon="@drawable/nav_friends"
+        android:title="Friends"/>
+    <item
+        android:id="@+id/nav_feedback"
+        android:icon="@drawable/icon_feedback"
+        android:title="问题反馈"/>
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/icon_help"
+        android:title="使用帮助"/>
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/icon_about"
+        android:title="关于应用"/>
+</menu>
